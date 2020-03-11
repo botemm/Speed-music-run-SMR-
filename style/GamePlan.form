@@ -1,0 +1,48 @@
+
+GrupNew_Begin
+GrupName WindowGamePlayer1
+GrupEnable 1
+GrupVizual 0
+GrupID_Knopka 0
+Grup_Type Window
+Grup_PosX 20
+Grup_PosY -20
+Grup_ISheader 1
+Grup_IStitle 1 
+Grup_Title "Мій флот"
+Grup_IsCloseButton 1
+Grup_IsHidentButton 1
+Grup_HeaderColor 255 255 255 250
+Grup_BackgroundColor 200 200 200 200
+Grup_BacgroundImageURL style\Data\Texturs\Dat\win.png
+Grup_BacgroundHeaderImageURL style\Data\Texturs\Dat\winhead.png
+Grup_heightHeader 30
+Grup_SizeX 400
+Grup_SizeY 400
+Grup_CHorizontal C
+Grup_CWertical C
+Grup_End
+
+
+
+
+
+
+
+
+Grup_Copy WindowGamePlayer1
+GrupName WindowGamePlayer2
+Grup_Title "Ворожий флот"
+Grup_PosX -20
+Grup_PosY 20
+Grup_End
+
+
+
+
+
+
+
+
+
+

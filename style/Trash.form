@@ -1,0 +1,681 @@
+
+
+#ID_GRUP 1 //Головне меню
+GrupNew_Begin
+GrupName Gmenu1
+GrupEnable 1
+GrupVizual 0
+GrupID_Knopka 0
+Grup_BacgroundImageURL NULL
+Grup_End
+
+#ID_GRUP 1 //Головне меню
+
+GrupNew_Begin
+GrupName Window1
+GrupEnable 1
+GrupVizual 0
+GrupID_Knopka 0
+Grup_Type Window
+Grup_PosX 10
+Grup_PosY 70
+Grup_ISheader 1
+Grup_IStitle 1
+Grup_Title Вікно_1
+Grup_IsCloseButton 1
+Grup_IsHidentButton 1
+Grup_HeaderColor 255 255 255 250
+Grup_BackgroundColor 200 200 100 255
+
+Grup_TextColor 255 255 255 50
+Grup_BacgroundImageURL style\Data\Texturs\Dat\win.png
+Grup_BacgroundHeaderImageURL style\Data\Texturs\Dat\winhead.png
+Grup_heightHeader 30
+Grup_SizeX 200
+Grup_SizeY 200
+Grup_CHorizontal L
+Grup_CWertical W
+Grup_End
+
+
+
+GrupNew_Begin
+GrupName Window2
+GrupEnable 1
+GrupVizual 1
+GrupID_Knopka 0
+Grup_Type Window
+Grup_PosX 50
+Grup_PosY 100
+Grup_ISheader 1
+Grup_IStitle 1 
+Grup_Title "Головне Меню"
+Grup_IsCloseButton 1
+Grup_IsHidentButton 1
+Grup_HeaderColor 255 255 255 250
+Grup_BackgroundColor 200 200 200 200
+Grup_BacgroundImageURL style\Data\Texturs\Dat\win.png
+Grup_BacgroundHeaderImageURL style\Data\Texturs\Dat\winhead.png
+Grup_heightHeader 30
+Grup_SizeX 500
+Grup_SizeY 250
+Grup_CHorizontal C
+Grup_CWertical C
+Grup_End
+
+
+
+#StyleElements
+Object_Begin
+Object_Name Style1
+Object_Text Style1
+Object_CHorizontal C
+Object_CWertical C
+Object_Avtomatic 0
+Object_Color 255 200 200 255
+Object_HoverColor 255 200 200 200
+Object_TextColor 255 255 255 255
+Object_HoverTextColor 255 200 200 200
+Object_Enabled 1
+Object_Vizual 1
+Object_Panel -1
+Object_PosX 0
+Object_PosY 53
+Object_SizeX 255
+Object_SizeY 60
+Object_TextSize 30
+Object_Tip 1
+Object_HoverSizeX 250
+Object_HoverSizeY 50
+
+Object_TextAlignX C
+Object_TextAlignY C
+Object_Type Button
+
+Object_URL style\Data\Texturs\Dat\Button4.png
+Object_End
+
+
+#StyleElements
+Object_Begin
+Object_Name Style1111dsv
+Object_Text View
+Object_CHorizontal R
+Object_CWertical W
+Object_Avtomatic 0
+Object_Color 255 200 200 100
+Object_HoverColor 255 200 200 150
+Object_TextColor 100 0 0 255
+Object_HoverTextColor 100 100 0 200
+Object_Enabled 1
+Object_Vizual 1
+Object_Panel -1
+Object_PosX 5
+Object_PosY 5
+Object_SizeX 70
+Object_SizeY 23
+Object_TextSize 25
+Object_Tip 1
+Object_HoverSizeX 73
+Object_HoverSizeY 25
+
+Object_TextAlignX C
+Object_TextAlignY C
+Object_Type Button
+Object_grup TechGrupa
+
+Object_URL NULL
+Comanda GrupVisualOn 1 Window2
+Object_End
+
+
+#StyleElements
+Object_Begin
+Object_Name Style1111dsvxc
+Object_Text ViewALL
+Object_CHorizontal R
+Object_CWertical W
+Object_Avtomatic 0
+Object_Color 255 200 200 100
+Object_HoverColor 255 200 200 150
+Object_TextColor 100 0 0 255
+Object_HoverTextColor 100 100 0 200
+Object_Enabled 1
+Object_Vizual 1
+Object_Panel -1
+Object_PosX 85
+Object_PosY 5
+Object_SizeX 110
+Object_SizeY 23
+Object_TextSize 25
+Object_Tip 1
+Object_HoverSizeX 110
+Object_HoverSizeY 25
+
+Object_TextAlignX C
+Object_TextAlignY C
+Object_Type Button
+Object_grup TechGrupa
+
+Object_URL NULL
+Comanda GrupVisualOnInsert 1 t
+Object_End
+
+
+
+
+#StyleElements
+Object_Begin
+Object_Name Style1111
+Object_Text X
+Object_CHorizontal R
+Object_CWertical W
+Object_Avtomatic 0
+Object_Color 255 200 200 0
+Object_HoverColor 255 200 200 10
+Object_TextColor 100 0 0 255
+Object_HoverTextColor 100 100 0 200
+Object_Enabled 1
+Object_Vizual 1
+Object_Panel -1
+Object_PosX 13
+Object_PosY -22
+Object_SizeX 20
+Object_SizeY 23
+Object_TextSize 25
+Object_Tip 1
+Object_HoverSizeX 20
+Object_HoverSizeY 23
+
+Object_TextAlignX C
+Object_TextAlignY C
+Object_Type Button
+Object_grup Window2
+
+Object_URL NULL
+Comanda GrupVisualOff 1 Window2
+Object_End
+
+
+
+#StyleElementsCheckBox
+Object_Begin
+Object_Name StyleCheckBox
+Object_Text StyleCheckBox
+Object_CHorizontal L
+Object_CWertical N
+Object_Avtomatic 0
+Object_Color 255 200 200 255
+Object_HoverColor 255 200 200 200
+Object_TextColor 255 255 255 255
+Object_HoverTextColor 255 200 200 200
+Object_Enabled 1
+Object_Vizual 1
+Object_PosX 5
+Object_PosY 20
+Object_SizeX 30
+Object_SizeY 30
+Object_TextSize 23
+Object_HoverSizeX 29
+Object_HoverSizeY 29
+
+Object_Type checkBox
+
+Object_Checked 0
+
+Object_TextAlignX R
+Object_TextAlignY C
+
+Object_URL style\Data\Texturs\Dat\checkBox.png
+Object_End
+
+
+
+
+
+#StyleElementsCheckBox
+Object_Begin
+Object_Name StyleradioBox
+Object_Text StyleradioBox
+Object_CHorizontal R
+Object_CWertical N
+Object_Avtomatic 0
+Object_Color 255 200 200 255
+Object_HoverColor 255 200 200 200
+Object_TextColor 255 255 255 255
+Object_HoverTextColor 255 200 200 200
+Object_Enabled 1
+Object_Vizual 1
+Object_PosX 5
+Object_PosY 20
+Object_SizeX 30
+Object_SizeY 30
+Object_TextSize 23
+Object_HoverSizeX 29
+Object_HoverSizeY 29
+
+Object_Type radioBox
+
+Object_TextAlignX L
+Object_TextAlignY C
+
+Object_Checked 0
+Object_RadioGrup 5
+
+Object_URL style\Data\Texturs\Dat\radioBox.png
+Object_End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#StyleValueBox
+Object_Begin
+Object_Name StyleValueBox
+Object_Text   
+Object_CHorizontal C
+Object_CWertical N
+Object_Avtomatic 1
+Object_Color 255 200 200 100
+Object_HoverColor 255 200 200 120
+Object_Enabled 1
+Object_Vizual 1
+Object_PosX 0
+Object_PosY 70
+Object_SizeX 400
+Object_SizeY 30
+Object_TextSize 0
+Object_HoverSizeX 400
+Object_HoverSizeY 30
+
+Object_TextAlignX C
+Object_TextAlignY C
+Object_Type trackBar
+Object_RotationMode H
+
+Object_trackBarKaretkaSizeX 55
+Object_trackBarKaretkaSizeY 40
+Object_trackBarKaretkaHoverSizeX 65
+Object_trackBarKaretkaHoverSizeY 45
+Object_trackBarKaretkaColor 255 255 255 150
+Object_trackBarKaretkaHoverColor 255 255 255 255
+
+
+Object_Value 20
+Object_MaxValue 100
+Object_MinValue 0
+
+Object_URL style\Data\Texturs\Dat\Line.png
+Object_URL2 style\Data\Texturs\Dat\karetka.png
+Object_End
+
+#========================================
+
+Object_Copy Style1
+Object_Name NewGame
+Object_Text "Гра на одинці"
+
+Object_Avtomatic 1
+Object_PosY -53
+Object_grup Window2
+Object_End
+
+Object_Copy Style1
+Object_Name Setling
+Object_Text "Створити сервер LAN"
+Object_PosY 0
+Object_grup Window2
+Object_End
+
+
+
+
+Object_Copy Style1
+Object_Name Exit
+Object_Text Вихід
+Object_PosY 53
+Object_grup Window2
+Object_End
+
+#======================================
+
+Object_Copy StyleCheckBox
+Object_Name Check3
+Object_PosY 150
+Object_PosX 15
+Object_Text Check3
+Object_grup Window2
+Object_End
+
+Object_Copy StyleCheckBox
+Object_Name Check2
+Object_PosY 100
+Object_PosX 15
+Object_Text Check2
+Object_grup Window2
+Object_End
+
+Object_Copy StyleCheckBox
+Object_Name Check1
+Object_PosY 50
+Object_PosX 15
+Object_Text Check1
+Object_grup Window2
+Object_End
+
+#======================================
+
+Object_Copy StyleradioBox
+Object_Name radioBox3
+Object_PosY 150
+Object_Text radioBox3G5
+Object_grup Window1
+Object_End
+
+Object_Copy StyleradioBox
+Object_Name radioBox2
+Object_PosY 100
+Object_Text radioBoxG52
+Object_grup Window1
+Object_End
+
+Object_Copy StyleradioBox
+Object_Name radioBoxG51
+Object_PosY 50
+Object_Text radioBox1
+Object_grup Window1
+Object_End
+
+#=================================
+
+Object_Copy StyleradioBox
+Object_Name radioBox1111
+Object_RadioGrup 6
+Object_CWertical W
+Object_CHorizontal L
+Object_PosY 150
+Object_PosX 15
+Object_Text radioBox3
+Object_grup Window1
+Object_End
+
+Object_Copy StyleradioBox
+Object_RadioGrup 6
+Object_CWertical W
+Object_CHorizontal L
+Object_Name radioBox222
+Object_PosY 100
+Object_PosX 15
+Object_Text radioBox2
+Object_grup Window1
+Object_End
+
+Object_Copy StyleradioBox
+Object_RadioGrup 6
+Object_CWertical W
+Object_CHorizontal L
+Object_Name radioBox7777
+Object_PosY 50
+Object_PosX 15
+Object_Text radioBox1
+Object_grup Window1
+Object_End
+
+
+==========================================================
+
+Object_Copy StyleValueBox
+Object_Name ValueBox1
+Object_Text ValueBox1
+Object_grup Gmenu1
+Object_Value 100
+
+Object_Value 20
+Object_MaxValue 300
+Object_MinValue 0
+
+Object_End
+
+Object_Copy StyleValueBox
+Object_Name ValueBoxVert
+Object_grup Window2
+
+Object_CWertical C
+Object_CHorizontal R
+Object_RotationMode W
+
+Object_Value 50
+Object_SizeX 15
+Object_SizeY 230
+Object_HoverSizeX 15
+Object_HoverSizeY 230
+Object_MaxValue 300
+Object_MinValue 0
+Object_PosX 15
+Object_PosY -4;
+
+
+Object_trackBarKaretkaSizeX 15
+Object_trackBarKaretkaSizeY 20
+Object_trackBarKaretkaHoverSizeX 17
+Object_trackBarKaretkaHoverSizeY 20
+Object_trackBarKaretkaColor 255 255 255 150
+Object_trackBarKaretkaHoverColor 255 255 255 255
+
+Object_End
+
+
+
+Object_Copy StyleValueBox
+Object_Name trackbBar2
+Object_CWertical W
+Object_PosY 10
+Object_Value 300
+Object_MaxValue 1000
+Object_MinValue 300
+Object_grup Window2
+
+
+Object_CWertical N
+Object_CHorizontal C
+
+Object_Value 50
+Object_SizeX 455
+Object_SizeY 15
+Object_HoverSizeX 455
+Object_HoverSizeY 15
+Object_MaxValue 300
+Object_MinValue 0
+Object_PosX 13
+Object_PosY 13;
+
+
+Object_trackBarKaretkaSizeX 20
+Object_trackBarKaretkaSizeY 15
+Object_trackBarKaretkaHoverSizeX 17
+Object_trackBarKaretkaHoverSizeY 20
+Object_trackBarKaretkaColor 255 255 255 150
+Object_trackBarKaretkaHoverColor 255 255 255 255
+
+Object_End
+
+
+Object_Copy StyleValueBox
+Object_Name LeftPanelValue
+Object_CWertical C
+Object_CHorizontal R
+Object_PosY 0
+Object_SizeX 150
+Object_HoverSizeX 150
+Object_Value 70
+Object_MaxValue 400
+Object_MinValue 0
+Object_grup Gmenu1
+Object_End
+
+Object_Copy StyleValueBox
+Object_Name RightPanelValue
+Object_CWertical C
+Object_CHorizontal L
+Object_PosY 0
+Object_SizeX 150
+Object_HoverSizeX 150
+Object_Value 70
+Object_MaxValue 400
+Object_MinValue 0
+Object_grup Gmenu1
+Object_End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#StyleElements
+Object_Begin
+Object_Name textBox11
+Object_Text textBox11
+Object_CHorizontal C
+Object_CWertical C
+Object_Avtomatic 0
+Object_Color 255 255 255 255
+Object_HoverColor 255 255 255 255
+Object_TextColor 0 0 0 250
+Object_HoverTextColor 0 0 0 255
+Object_Enabled 1
+Object_Vizual 1
+Object_Panel -1
+Object_PosX 0
+Object_PosY 150
+Object_SizeX 255
+Object_SizeY 35
+Object_TextSize 30
+Object_Tip 1
+Object_HoverSizeX 250
+Object_HoverSizeY 35
+
+Object_TextAlignX C
+Object_TextAlignY C
+Object_Type textBox
+Object_grup Gmenu1
+
+Object_URL style\Data\Texturs\Dat\textBox.png
+Object_End
+
+
+
+#StyleElements
+Object_Begin
+Object_Name Label1
+Object_Text Виберіть_правильну_відповідь
+Object_CHorizontal C
+Object_CWertical W
+Object_Avtomatic 0
+Object_Color 255 255 255 255
+Object_HoverColor 255 255 255 255
+Object_TextColor 255 255 255 250
+Object_HoverTextColor 200 0 0 255
+Object_Enabled 1
+Object_Vizual 1
+Object_Panel -1
+Object_PosX 0
+Object_PosY 12
+Object_SizeX 70
+Object_SizeY 35
+Object_TextSize 30
+Object_Tip 1
+Object_HoverSizeX 250
+Object_HoverSizeY 35
+
+Object_TextAlignX C
+Object_TextAlignY C
+
+Object_Type Label
+Object_grup Window2
+Object_End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==========================================================
+#  ID_GRUP 0
+
+GrupNew_Begin
+GrupName TechGrupa
+GrupEnable 1
+GrupVizual 1
+GrupID_Knopka 0
+Grup_BacgroundImageURL NULL
+Grup_BacgroundHeaderImageURL NULL
+Grup_End
+
+#  ID_Knopka 0
+
+Object_Begin
+Object_Name ReForm
+Object_grup TechGrupa
+Object_Text 
+Object_CHorizontal L
+Object_CWertical W
+Object_Avtomatic 0
+Object_Color 255 255 255 30
+Object_Enabled 1
+Object_Vizual 1
+Object_PosX 10
+Object_PosY 10
+Object_SizeX 50
+Object_SizeY 50
+Object_HoverSizeX 60
+Object_HoverSizeY 60
+Object_Type Button
+Object_URL Data\Texturs\TexturBT\ReForm.tga
+Object_End
+
+#===========================================================
+
+
+
+Form_Init_End

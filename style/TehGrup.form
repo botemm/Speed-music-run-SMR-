@@ -1,0 +1,176 @@
+
+"===============TehGrupa.form=============="
+
+#  ID_GRUP 0
+
+GrupNew_Begin
+Grup_Name "TechGrupa"
+Grup_Enable 1
+Grup_Vizual 1
+Grup_ID_Knopka 0
+Grup_BacgroundImageURL NULL
+Grup_BacgroundHeaderImageURL NULL
+Grup_End
+
+#  ID_Knopka 0
+
+Object_Begin
+Object_Name ReForm
+Object_grup "TechGrupa"
+Object_Text " "
+Object_CHorizontal L
+Object_CWertical W
+Object_Avtomatic 0
+Object_Color 255 255 255 30
+Object_Enabled 1
+Object_Vizual 0
+Object_PosX 10
+Object_PosY 10
+Object_SizeX 50
+Object_SizeY 50
+Object_HoverSizeX 60
+Object_HoverSizeY 60
+Object_Type Button
+Object_URL Data\Texturs\TexturBT\ReForm.tga
+Object_End
+
+
+
+
+Object_Begin
+Object_Name ab
+Object_grup "TechGrupa"
+Object_Text ""
+Object_CHorizontal R
+Object_CWertical W
+Object_Avtomatic 0
+Object_Color 255 255 255 50
+Object_Enabled 1
+Object_Vizual 1
+Object_PosX 0
+Object_PosY 10
+Object_SizeX 15
+Object_SizeY 40
+Object_HoverSizeX 15
+Object_HoverSizeY 40
+Object_Type Button
+Object_URL style\Data\btAbout.png
+Comanda GrupVisualOn 1 "abaut"
+Object_End
+
+
+
+
+Object_Begin
+Object_Name av
+Object_grup "TechGrupa"
+Object_Text ""
+Object_CHorizontal R
+Object_CWertical W
+Object_Avtomatic 0
+Object_Color 255 255 255 50
+Object_Enabled 1
+Object_Vizual 1
+Object_PosX 0
+Object_PosY 55
+Object_SizeX 15
+Object_SizeY 40
+Object_HoverSizeX 15
+Object_HoverSizeY 40
+Object_Type Button
+Object_URL style\Data\btAvtor.png
+Comanda GrupVisualOn 1 "avtor"
+Object_End
+
+#===========================================================
+
+
+#
+
+
+GrupNew_Begin
+Grup_Name "avtor"
+Grup_Enable 1
+Grup_Vizual 0
+Grup_Type Window
+Grup_PosX 0
+Grup_PosY 0
+Grup_ISheader 1
+Grup_IStitle 1
+Grup_Title "avtor"
+Grup_IsCloseButton 1
+Grup_IsHidentButton 1
+Grup_HeaderColor 255 255 255 250
+Grup_BackgroundColor 255 255 255 250
+Grup_BacgroundImageURL style\Data\avtor.png
+Grup_BacgroundHeaderImageURL style\Data\Habaut.png
+Grup_heightHeader 25
+Grup_SizeX 480
+Grup_SizeY 400
+Grup_CHorizontal C
+Grup_CWertical C
+Grup_End
+
+Object_Begin ButtonStyle2
+Object_Name "x2222"
+Object_grup "avtor"
+Object_Text "X"
+Object_Vizual 1
+Object_SizeX 20
+Object_SizeY 20
+Object_Color 100 100 100 255
+Object_HoverFix 
+Object_HoverColor 255 200 200 200
+Object_PosY -22
+Object_PosX 3
+Object_CHorizontal "R"
+Object_CWertical "W"
+Object_URL ""
+Comanda GrupVisualOff 1 "avtor"
+Object_End
+
+
+
+GrupNew_Begin
+Grup_Name "abaut"
+GrupEnable 1
+Grup_Vizual 0
+Grup_Type Window
+Grup_PosX 0
+Grup_PosY 0
+Grup_ISheader 1
+Grup_IStitle 1
+Grup_Title "abaut"
+Grup_IsCloseButton 1
+Grup_IsHidentButton 1
+Grup_HeaderColor 255 255 255 250
+Grup_BackgroundColor 255 255 255 250
+Grup_BacgroundImageURL style\Data\abaut.png
+Grup_BacgroundHeaderImageURL style\Data\Habaut.png
+Grup_heightHeader 25
+Grup_SizeX 480
+Grup_SizeY 400
+Grup_CHorizontal C
+Grup_CWertical C
+Grup_End
+
+
+Object_Begin 
+Object_Name "x111"
+Object_grup "abaut"
+Object_Text "X"
+Object_Vizual 1
+Object_SizeX 20
+Object_SizeY 20
+Object_Color 100 100 100 255
+Object_HoverFix 
+Object_HoverColor 255 200 200 200
+Object_PosY -22
+Object_PosX 3
+Object_CHorizontal "R"
+Object_CWertical "W"
+Object_URL ""
+Comanda GrupVisualOff 1 "abaut"
+Object_End
+
+

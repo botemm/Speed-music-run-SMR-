@@ -1,0 +1,356 @@
+Version 1.5
+include "style\TehGrup.form"
+include "style\Style.form"
+include "style\GamePlan.form"
+include "style\Other.form"
+
+Grup_New_Begin
+Grup_Name Main
+Grup_Vizual 1
+Grup_Type ""
+Grup_End
+
+
+
+
+
+
+Object_Begin
+Object_Name "Save"
+
+Object_Text " "
+Object_CHorizontal L
+Object_CWertical N
+Object_Avtomatic 0
+Object_Color 255 255 255 200
+Object_HoverColor 255 255 255 255
+Object_Enabled 1
+Object_Vizual 1 
+Object_PosX 10
+Object_PosY 10
+Object_SizeX 50
+Object_SizeY 50
+Object_HoverSizeX 60
+Object_HoverSizeY 60
+Object_Type Button
+Object_URL "style\Data\Save.png"
+Object_grup "TechGrupa"
+Object_End
+
+
+
+
+
+Object_Begin
+Object_Name "Open"
+Object_grup TechGrupa
+Object_Text " "
+Object_CHorizontal L
+Object_CWertical N
+Object_Avtomatic 0
+Object_Color 255 255 255 200
+Object_HoverColor 255 255 255 255
+Object_Enabled 1
+Object_Vizual 1 
+Object_PosX 10
+Object_PosY 60
+Object_SizeX 50
+Object_SizeY 50
+Object_HoverSizeX 60
+Object_HoverSizeY 60
+Object_Type Button
+Object_URL ""style\Data\open.png""
+Object_End
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Grup_Copy StyleWindow1
+Grup_Name WinCreateServer
+Grup_Title "WinCreateServer"
+Grup_Vizual 0
+Grup_SizeY 250
+Grup_BackgroundColor 100 100 200 200
+Grup_HeaderColor 255 200 200 250
+Grup_End
+
+#StyleValueBox
+Object_Begin
+Object_Name "Track1"
+Object_Text   
+Object_CHorizontal C
+Object_CWertical N
+Object_Avtomatic 1
+Object_Color 255 200 200 100
+Object_HoverColor 255 200 200 120
+Object_Enabled 1
+Object_Vizual 1
+Object_PosX 0
+Object_PosY 20
+Object_SizeX 430
+Object_SizeY 15
+Object_TextSize 0
+Object_HoverSizeX 430
+Object_HoverSizeY 15
+
+Object_TextAlignX C
+Object_TextAlignY C
+Object_Type trackBar
+Object_RotationMode H
+
+Object_trackBarKaretkaSizeX 30
+Object_trackBarKaretkaSizeY 20
+Object_trackBarKaretkaHoverSizeX 65
+Object_trackBarKaretkaHoverSizeY 45
+Object_trackBarKaretkaColor 255 255 255 150
+Object_trackBarKaretkaHoverColor 255 255 255 255
+
+
+Object_Value 0
+Object_MaxValue 100
+Object_MinValue 0
+
+Object_URL style\Data\Texturs\Dat\Line.png
+Object_URL2 style\Data\Texturs\Dat\karetka.png
+
+Object_grup WinCreateServer
+Object_End
+
+
+
+
+
+
+
+
+
+#StyleValueBox
+Object_Begin
+Object_Name "Balns"
+Object_Text " "  
+Object_CHorizontal R
+Object_CWertical N
+Object_Avtomatic 1
+Object_Color 255 200 200 100
+Object_HoverColor 255 200 200 120
+Object_Enabled 1
+Object_Vizual 1
+Object_PosX 35
+Object_PosY 50
+Object_SizeX 150
+Object_SizeY 15
+Object_TextSize 0
+Object_HoverSizeX 430
+Object_HoverSizeY 15
+
+Object_TextAlignX C
+Object_TextAlignY C
+Object_Type trackBar
+Object_RotationMode H
+
+Object_trackBarKaretkaSizeX 30
+Object_trackBarKaretkaSizeY 20
+Object_trackBarKaretkaColor 255 255 255 150
+Object_HoverFix 
+
+
+Object_Value 0
+Object_MaxValue 100
+Object_MinValue -100
+
+Object_URL style\Data\Texturs\Dat\Line.png
+Object_URL2 style\Data\Texturs\Dat\karetka.png
+
+Object_grup WinCreateServer
+Object_End
+
+
+
+
+
+
+
+
+
+#StyleValueBox
+Object_Begin
+Object_Name "Volume"
+Object_Text " "  
+Object_CHorizontal R
+Object_CWertical N
+Object_Avtomatic 1
+Object_Color 255 200 200 100
+Object_HoverColor 255 200 200 120
+Object_Enabled 1
+Object_Vizual 1
+Object_PosX 30
+Object_PosY 70
+Object_SizeX 150
+Object_SizeY 15
+Object_TextSize 0
+Object_HoverSizeX 430
+Object_HoverSizeY 15
+
+Object_TextAlignX C
+Object_TextAlignY C
+Object_Type trackBar
+Object_RotationMode H
+
+Object_trackBarKaretkaSizeX 30
+Object_trackBarKaretkaSizeY 20
+Object_trackBarKaretkaColor 255 255 255 150
+Object_HoverFix 
+
+
+Object_Value 100
+Object_MaxValue 100
+Object_MinValue 0
+
+Object_URL style\Data\Texturs\Dat\Line.png
+Object_URL2 style\Data\Texturs\Dat\karetka.png
+
+Object_grup WinCreateServer
+Object_End
+
+
+
+#========================================
+
+
+
+
+
+
+Object_Copy ButtonStyle2
+Object_Name "Next"
+Object_grup WinCreateServer
+Object_Text ">"
+Object_SizeX 30
+Object_Color 150 150 150 200
+Object_HoverColor 200 200 200 200
+Object_PosY 70
+Object_PosX 440
+Object_HoverSizeX 30
+Object_HoverSizeY 45
+Object_CHorizontal L
+#Object_End
+
+
+
+Object_Copy ButtonStyle2
+Object_Name "Play"
+Object_grup WinCreateServer
+Object_Text ""
+Object_SizeX 100
+Object_SizeY 100
+Object_Color 150 150 150 255
+Object_HoverColor 200 200 200 200
+Object_PosY 0
+Object_PosX -90
+Object_CHorizontal "C"
+Object_CWertical "C"
+Object_HoverSizeX 100
+Object_HoverSizeY 100
+Object_URL style\Data\Texturs\Dat\Play.png
+
+Object_End
+
+Object_Copy ButtonStyle2
+Object_Name "Pause"
+Object_grup WinCreateServer
+Object_Text ""
+Object_URL style\Data\Texturs\Dat\PAuse.png
+Object_SizeX 100
+Object_SizeY 100
+Object_Color 150 150 150 200
+Object_HoverColor 200 200 200 200
+Object_PosY 0
+Object_PosX 90
+Object_HoverSizeX 100
+Object_HoverSizeY 100
+Object_CHorizontal "C"
+Object_CWertical "C"
+Object_End
+
+
+
+Object_Copy ButtonStyle2
+Object_Name "Stop"
+Object_grup WinCreateServer
+Object_Text ""
+Object_SizeX 100
+Object_SizeY 100
+Object_Color 150 150 150 200
+Object_HoverColor 200 200 200 200
+Object_PosY 0
+Object_PosX 0
+
+Object_HoverSizeX 100
+Object_HoverSizeY 100
+Object_CHorizontal C
+Object_CWertical C
+Object_URL style\Data\Texturs\Dat\Stop.png
+Object_End
+
+
+
+Object_Copy ButtonStyle2
+Object_Name "Names"
+Object_grup WinCreateServer
+Object_Text "textBox"
+Object_SizeX 300
+Object_Color 150 150 150 200
+Object_HoverFix 
+Object_HoverColor 200 200 200 200
+Object_PosY 20
+Object_PosX 0
+Object_CHorizontal C
+Object_CWertical W
+Object_Type "textBox"
+Object_End
+
+
+
+Object_Copy ButtonStyle2
+Object_Name "OK"
+Object_grup WinCreateServer
+Object_Text "OK"
+Object_SizeX 50
+Object_Color 150 150 150 200
+Object_HoverFix 
+Object_HoverColor 200 200 200 200
+Object_PosY 20
+Object_PosX 20
+Object_CHorizontal R
+Object_CWertical W
+Object_Type ""
+Object_End
+
+
+
+
+
+
+
+
+
+
+
+include "style\Pres1.form"
+
+
+Form_Init_End

@@ -1,0 +1,120 @@
+
+
+
+
+
+"===============STYLE.form=============="
+
+
+Grup_New_Begin
+Grup_Name StyleWindow1
+Grup_Enable 1
+Grup_Vizual 0
+Grup_Type Window
+Grup_PosX 0
+Grup_PosY 0
+Grup_ISheader 1
+Grup_IStitle 1
+Grup_Title Window1
+Grup_IsCloseButton 1
+Grup_IsHidentButton 1
+Grup_HeaderColor 255 255 255 250
+Grup_BackgroundColor 200 200 200 200
+Grup_BacgroundImageURL style\Data\Texturs\Dat\win.png
+Grup_BacgroundHeaderImageURL style\Data\Texturs\Dat\winhead.png
+Grup_heightHeader 30
+Grup_SizeX 500
+Grup_SizeY 250
+Grup_CHorizontal C
+Grup_CWertical C
+
+Grup_End
+
+
+
+"============================================"
+
+
+Object_Begin
+Object_Name ButtonStyle1
+Object_Text ButtonStyle1
+Object_CHorizontal C
+Object_CWertical C
+Object_Avtomatic 0
+Object_Color 255 200 200 255
+Object_HoverColor 255 200 200 200
+Object_TextColor 255 255 255 255
+Object_HoverTextColor 255 200 200 200
+Object_Enabled 1
+Object_Vizual 1
+Object_Panel -1
+Object_PosX 0
+Object_PosY 0
+Object_SizeX 255
+Object_SizeY 60
+Object_TextSize 30
+Object_Tip 1
+Object_HoverSizeX 250
+Object_HoverSizeY 50
+
+Object_TextAlignX C
+
+Object_TextAlignY C
+Object_Type Button
+
+Object_URL style\Data\Texturs\Dat\Button4.png
+Object_End
+
+
+
+"============================================"
+
+
+Object_Begin
+Object_Name ButtonStyle2
+Object_Text ButtonStyle2
+
+Object_CHorizontal C
+
+Object_CWertical W
+Object_Avtomatic 0
+Object_Color 255 200 200 100
+Object_HoverColor 255 200 200 200
+Object_TextColor 40 40 40 220
+Object_HoverTextColor 0 0 0 210
+Object_Enabled 1
+Object_Vizual 1
+Object_Panel -1
+Object_PosX 0
+Object_PosY 0
+Object_SizeX 450
+Object_SizeY 45
+Object_TextSize 30
+Object_Tip 1
+Object_HoverSizeX 450
+Object_HoverSizeY 40
+
+Object_TextAlignX C
+Object_TextAlignY C
+Object_Type Button
+
+Object_URL NULL
+Object_End
+
+
+
+
+
+
+Object_Copy ButtonStyle2
+Object_Name StyleTextBox
+Object_Text "TextBox"
+Object_Type "textBox"
+
+
+Object_Color 255 255 255 255
+Object_HoverColor 255 200 200 200
+Object_TextColor 255 255 255 255
+Object_HoverTextColor 255 200 200 200
+
+Object_End

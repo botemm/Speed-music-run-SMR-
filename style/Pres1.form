@@ -1,0 +1,169 @@
+
+Grup_New_Begin
+Grup_Name "Pres1"
+Grup_Enable 1
+Grup_Vizual 0
+Grup_Type Window
+Grup_PosX 0
+Grup_PosY 0
+Grup_ISheader 1
+Grup_IStitle 1
+Grup_Title "Sample.mp3"
+Grup_IsCloseButton 1
+Grup_IsHidentButton 1
+Grup_HeaderColor 255 255 255 250
+Grup_BackgroundColor 200 200 200 250
+Grup_BacgroundImageURL style\Pres1\main.png
+Grup_BacgroundHeaderImageURL style\Pres1\head.png
+Grup_heightHeader 15
+Grup_SizeX 155
+Grup_SizeY 52
+Grup_CHorizontal L
+Grup_CWertical W
+Grup_End
+
+Object_Copy ButtonStyle2
+Object_Name "Pres1Pause"
+Object_grup Pres1
+Object_Text ""
+Object_SizeX 20
+Object_SizeY 20
+Object_Color 100 100 100 255
+Object_HoverFix 
+Object_HoverColor 255 200 200 200
+Object_PosY -11
+Object_PosX 10
+Object_CHorizontal "L"
+Object_CWertical "C"
+Object_URL "style\Pres1\pause.png"
+Object_End
+
+
+
+Object_Copy ButtonStyle2
+Object_Name "Pres1Play"
+Object_grup Pres1
+Object_Text ""
+Object_SizeX 20
+Object_SizeY 20
+Object_Color 100 100 100 255
+Object_HoverFix 
+Object_HoverColor 255 200 200 200
+Object_PosY -11
+Object_PosX 10
+Object_CHorizontal "L"
+Object_CWertical "C"
+Object_URL "style\Pres1\play.png"
+Object_End
+
+
+
+
+
+
+
+#StyleValueBox
+Object_Begin
+Object_Name "Pres1Balans"
+Object_Text " "
+Object_CHorizontal C
+Object_CWertical N
+Object_Avtomatic 1
+Object_Color 255 200 200 0
+Object_HoverColor 255 200 200 0
+Object_Enabled 1
+Object_Vizual 1
+Object_PosX -25
+Object_PosY 25
+Object_SizeX 80
+Object_SizeY 10
+Object_TextSize 0
+Object_HoverSizeX 400
+Object_HoverSizeY 30
+
+Object_TextAlignX C
+Object_TextAlignY C
+Object_Type trackBar
+Object_RotationMode H
+
+Object_trackBarKaretkaSizeX 12
+Object_trackBarKaretkaSizeY 10
+
+
+Object_trackBarKaretkaHoverSizeX 65
+Object_trackBarKaretkaHoverSizeY 45
+
+
+Object_grup Pres1
+Object_Value 0
+Object_MaxValue 100
+Object_MinValue -100
+
+Object_HoverFix 
+
+Object_trackBarKaretkaColor 255 255 255 230
+Object_trackBarKaretkaHoverColor 255 255 255 255
+
+Object_URL "style\Pres1\en.png"
+Object_URL2 "style\Pres1\big.png"
+Object_End
+
+
+Object_Copy "Pres1Balans" 
+Object_Name "Pres1vol"
+Object_Value 100
+Object_PosY 37
+Object_grup Pres1
+
+Object_MaxValue 100
+Object_MinValue 0
+
+Object_End 
+
+
+
+Object_Copy "Pres1Balans" 
+Object_Color 255 50 50 0
+Object_SizeX 135
+Object_Name "Pres1track"
+Object_Value 15
+Object_PosX 1
+Object_PosY 12
+Object_grup Pres1
+
+Object_Value 0
+Object_MaxValue 100
+Object_MinValue 0
+
+Object_End 
+
+Object_Begin
+Object_Name "Pres1key"
+Object_PosX 35
+Object_PosY 5
+Object_Text "N"
+Object_Type "label"
+Object_grup "Pres1"
+Object_TextSize 27
+
+Object_SizeX 20
+Object_SizeY 20
+
+Object_MaxValue 100
+Object_MinValue 0
+
+
+
+
+
+
+
+
+Object_End
+
+
+
+
+
+
+Form_Init_End
